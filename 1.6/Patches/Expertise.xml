@@ -167,6 +167,10 @@
 	</Operation>
 
 	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
+		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="HarvesterCareful"]</xpath>
+	</Operation>
+
+	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
 		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Treespeaker"]</xpath>
 	</Operation>
 
