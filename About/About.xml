@@ -1,317 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<Patch>
- 	<!-- Vanilla skills expanded -->
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Precision"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="CloseQuarters"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Gunner"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="VSE_Sniping"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Sharp"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Blunt"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="VSE_Striking"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Tamer"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Rancher"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Hunter"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Trainer"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="QualityExpert"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="QuantityExpert"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Flooring"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Repairman"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Architect"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Foreman"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="VSE_Smoothing"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Butcher"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Cooking"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="DrugChef"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="TopChef"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="IndustrialChef"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="MechanoidExpert"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Tailor"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Weaponsmith"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="IndustrialProcessExpert"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Surgeon"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="BattlefieldMedic"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="InfectiousDiseaseExpert"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="VSE_Operating"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Driller"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="OreExpert"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Tunneler"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Geologist"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Pharmacologist"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Hacker"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Researcher"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="VSE_Writing"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="VSE_DarkStudy"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Forager"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="HarvesterCareful"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Treespeaker"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Tunneller"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="GreenThumb"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Warden"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Negotiator"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Proselytizer"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="VSE_Lovin"]</xpath>
-	</Operation>
+<ModMetaData>
+  <name>Vanilla Skills Rexamined</name>
+  <author>Gravenwitch</author>
+  <supportedVersions>
+    <li>1.5</li>
+    <li>1.6</li>
+  </supportedVersions>
+  <packageId>Gravenwitch.VSRexamined</packageId>
+  <description>A patch for VSE that nerfs and condenses expertise. Most expertise are now valid choices or at least worthy of consideration.</description>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+      <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+      <displayName>Vanilla Expanded Framework</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>imranfish.xmlextensions</packageId>
+      <displayName>XML Extensions</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2574315206</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>vanillaexpanded.skills</packageId>
+      <displayName>Vanilla Skills Expanded</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2854967442</steamWorkshopUrl>
+    </li>
 	
-  <!-- Vanilla fishing expanded -->
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="VCEF_Swiftcasting"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="VCEF_Catchmastery"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="VCEF_Aquabounty"]</xpath>
-	</Operation>
-  
-  <!-- Vanilla Cooking expanded -->
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="VCE_GourmetChef"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="VCE_FlavourMaster"]</xpath>
-	</Operation>
- 
-  <!-- Vanilla Gravship expanded -->
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="VGE_GravshipResearch"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="VGE_GravshipMaintaining"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="VGE_GravshipTargeting"]</xpath>
-	</Operation>
-
-  <!-- Alpha skills -->
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="AS_Blasting"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="AS_Mortaring"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="AS_Pummeling"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="AS_Cleaving"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="AS_Evading"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="AS_Enduring"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="AS_CraftingQuality"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="AS_CraftingYield"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="AS_Smelting"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="AS_Panning"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="AS_Salvaging"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="AS_Trafficking"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="AS_Influencing"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="AS_Psycasting"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="AS_Quelling"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="AS_Piloting"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="AS_VacuumResilience"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="AS_RangedDodging"]</xpath>
-	</Operation>
-
-	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="AS_Mindfulness"]</xpath>
-	</Operation>
-
-</Patch>
+  </modDependencies>
+  <loadBefore>
+    <li>alias.degeneralizework</li>
+  </loadBefore>
+  <loadAfter>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.RimWorld.Royalty</li>
+    <li>Ludeon.RimWorld.Ideology</li>
+    <li>brrainz.harmony</li>
+    <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+  </loadAfter>
+  <incompatibleWith>
+    <li>zlj.staticqualityplus</li>
+    <li>imranfish.madderskills</li>
+  </incompatibleWith>
+</ModMetaData>
