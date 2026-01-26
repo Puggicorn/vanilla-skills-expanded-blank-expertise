@@ -43,6 +43,10 @@
 	</Operation>
 
 	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
+		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Trainer"]</xpath>
+	</Operation>
+
+	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
 		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="QualityExpert"]</xpath>
 	</Operation>
 
@@ -163,11 +167,11 @@
 	</Operation>
 
 	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Pruning"]</xpath>
+		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Treespeaker"]</xpath>
 	</Operation>
 
 	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Harvesting"]</xpath>
+		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="Tunneller"]</xpath>
 	</Operation>
 
 	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
@@ -204,6 +208,16 @@
 		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="VCEF_Aquabounty"]</xpath>
 	</Operation>
   
+  <!-- Vanilla Cooking expanded -->
+
+	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
+		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="VCE_GourmetChef"]</xpath>
+	</Operation>
+
+	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
+		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="VCE_FlavourMaster"]</xpath>
+	</Operation>
+ 
   <!-- Vanilla Gravship expanded -->
 
 	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
@@ -254,6 +268,10 @@
 
 	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
 		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="AS_Smelting"]</xpath>
+	</Operation>
+
+	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
+		<xpath>Defs/VSE.Expertise.ExpertiseDef[defName="AS_Panning"]</xpath>
 	</Operation>
 
 	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
