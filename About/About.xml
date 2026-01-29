@@ -7,7 +7,7 @@
     <li>1.6</li>
   </supportedVersions>
   <packageId>Gravenwitch.VSRexamined</packageId>
-  <description>A patch for VSE that nerfs and condenses expertise. Most expertise are now valid choices or at least worthy of consideration.</description>
+  <description>A patch for VSE that removes expertise added by the VE series, as well as Alpha skills, meant to be used as a dependancy for another mod that adds its own expertise.</description>
   <modDependencies>
     <li>
       <packageId>brrainz.harmony</packageId>
@@ -43,7 +43,6 @@
     <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
   </loadAfter>
   <incompatibleWith>
-    <li>zlj.staticqualityplus</li>
-    <li>imranfish.madderskills</li>
   </incompatibleWith>
 </ModMetaData>
+
