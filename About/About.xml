@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Vanilla Skills Rexamined</name>
-  <author>Gravenwitch</author>
+  <name>VSE blank expertise</name>
+  <author>Puggicorn</author>
   <supportedVersions>
-    <li>1.5</li>
     <li>1.6</li>
   </supportedVersions>
-  <packageId>Gravenwitch.VSRexamined</packageId>
+  <packageId>Puggicorn.VSEBlankExpertise</packageId>
   <description>A patch for VSE that removes expertise added by the VE series, as well as Alpha skills, meant to be used as a dependancy for another mod that adds its own expertise.</description>
   <modDependencies>
     <li>
@@ -45,4 +44,5 @@
   <incompatibleWith>
   </incompatibleWith>
 </ModMetaData>
+
 
